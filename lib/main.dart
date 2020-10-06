@@ -143,7 +143,6 @@ class _PanZoomImageState extends State<PanZoomImage> {
               onPressed: () {
                 controller.value =
                     _getZoomInfo(widget._width, widget._height, size, 1.0);
-                ;
               },
               child: Text("Reset"),
             ),
